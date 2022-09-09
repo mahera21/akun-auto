@@ -1,0 +1,65 @@
+proxies:
+- name: "🇸🇬VMESS_SG_LB_12🇸🇬"
+  type: vmess
+  server: sg-lb.vhax.net
+  port: 443
+  uuid: 6fea1649-425b-4092-bf53-29792152c925
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: note0.microsoft.com
+  network: ws
+  ws-opts:
+    path:  /sshkit/kocaknopek/6316017387f57/
+    headers:
+      Host: sg-lb.vhax.net
+- name: "🇲🇨VMESS_ID_NUSA_29🇲🇨"
+  type: vmess
+  server: nusa1.kitu.xyz
+  port: 443
+  uuid: 59fc86a1-da6f-4b71-97c4-3f6d8500b15d
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: note0.microsoft.com
+  network: ws
+  ws-opts:
+     path: /vmess/
+     headers:
+       Host: nusa1.kitu.xyz
+- name: "🇸🇬TROJAN_SG_OVH_25🇸🇬" 
+  type: trojan
+  server: sgovh-trojan.bonds.id
+  port: 443
+  password: 98d9a9a0-2484-11ed-b342-1239d0255272
+  udp: true
+  sni: kh.google.com
+  skip-cert-verify: true
+- name: "🇸🇬TROJAN_GFW_SG_OVH_1🇸🇬" 
+  type: trojan
+  server: sgovh-trojan.bonds.id
+  port: 443
+  password: f3720ed0-22e8-11ed-bb75-1239d0255272
+  udp: true
+  sni: kh.google.com
+  skip-cert-verify: true
+- name: vmess-ws-tls-whyvpn-dewabis
+  type: vmess
+  server: dewabiz2.kitu.xyz
+  port: 443
+  uuid: d4529b8b-49ce-4da9-9d4d-0dd92f811f77
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: kh.google.com
+  network: ws
+  ws-opts:
+     path: /vmess/
+     headers:
+       Host: dewabiz2.kitu.xyz
