@@ -9,7 +9,7 @@ proxies:
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: note0.microsoft.com
+  servername: meet.google.com
   network: ws
   ws-opts:
     path:  /sshkit/kocaknopek/6316017387f57/
@@ -47,7 +47,7 @@ proxies:
   udp: true
   sni: kh.google.com
   skip-cert-verify: true
-- name: vmess-ws-tls-whyvpn-dewabis
+- name: "🇲🇨vmess-ws-tls-whyvpn-dewabis🇸🇬"
   type: vmess
   server: dewabiz2.kitu.xyz
   port: 443
