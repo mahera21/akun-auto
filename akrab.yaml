@@ -1,9 +1,9 @@
 proxies:
-- name: "🇸🇬VMESS_SG_LB_12🇸🇬"
+- name: "🇸🇬VMESS_SG_MELBI🇸🇬"
   type: vmess
-  server: sg-lb.vhax.net
+  server: free-melbi.indo-ssh.com
   port: 443
-  uuid: 6fea1649-425b-4092-bf53-29792152c925
+  uuid: 07b22336-312c-11ed-a6bc-00163ce346c2
   alterId: 0
   cipher: auto
   udp: true
@@ -12,9 +12,9 @@ proxies:
   servername: meet.google.com
   network: ws
   ws-opts:
-    path:  /sshkit/kocaknopek/6316017387f57/
+    path:  /vmessws
     headers:
-      Host: sg-lb.vhax.net
+      Host: free-melbi.indo-ssh.com
 - name: "🇲🇨VMESS_ID_NUSA_29🇲🇨"
   type: vmess
   server: nusa1.kitu.xyz
