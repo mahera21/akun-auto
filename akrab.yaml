@@ -39,13 +39,13 @@ proxies:
   udp: true
   sni: kh.google.com
   skip-cert-verify: true
-- name: "🇸🇬TROJAN_GFW_SG_OVH_1🇸🇬" 
+- name: "🇸🇬TROJAN_GFW_JAGOAN🇸🇬" 
   type: trojan
-  server: sgovh-trojan.bonds.id
+  server: sgtro.ipservers.xyz
   port: 443
-  password: f3720ed0-22e8-11ed-bb75-1239d0255272
+  password: jagoanssh-sapataulancar
   udp: true
-  sni: kh.google.com
+  sni: meet.google.com
   skip-cert-verify: true
 - name: "🇲🇨vmess-ws-tls-whyvpn-dewabis🇸🇬"
   type: vmess
